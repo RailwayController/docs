@@ -3,9 +3,12 @@ SPDX-FileCopyrightText: 2022 Sidings Media <contact@sidingsmedia.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# Railway Controller
+# Railway Controller - Documentation
 
-Template repository
+This repo contains the source files for the public documentation of the
+Railway controller project. These files are rendered and hosted by
+readthedocs at
+[docs.railwaycontroller.sidingsmedia.com](https://docs.railwaycontroller.sidingsmedia.com).
 
 ## Licence
 This repo uses the [REUSE](https://reuse.software) standard in order to
