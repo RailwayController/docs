@@ -32,6 +32,11 @@ if branch == 'develop':
     release = f'DEV-{revision}'
     warning = 'This documentation is a development version and as such it is unstable and is prone to change at any time.'
     revisionNotice = f"Revision {revision} on branch {branch}"
+elif branch == "main":
+    version = revision
+    release = revision
+    warning = ""
+    revisionNotice = f"Revision {revision} on branch {branch}"
 else:
     # Try to get the current tag
     try:
@@ -69,9 +74,7 @@ pygments_style = None
 # -- Options for HTML output -------------------------------------------------
 html_theme = "furo"
 html_static_path = ['_static']
-html_css_files = [
-    'css/footer.css',
-]
+html_css_files = []
 html_title = "Railway Controller"
 
 #html_js_files = [ ]
