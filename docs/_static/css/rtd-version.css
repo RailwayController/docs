@@ -1,0 +1,24 @@
+/* 
+SPDX-FileCopyrightText: 2022 Sidings Media <contact@sidingsmedia.com>
+SPDX-License-Identifier: MIT
+ */
+
+#furo-readthedocs-versions:hover .rst-current-version {
+    background-color: var(--color-sidebar-background);
+}
+
+.rst-versions {
+    background-color: var(--color-sidebar-background);
+}
+
+.rst-versions .rst-other-versions {
+    color: var(--color-sidebar-caption-text);
+}
+
+.rst-versions .rst-other-versions dd a {
+    color: var(--color-content-foreground);
+}
+
+#furo-readthedocs-versions:hover .rst-current-version .fa-book {
+    color: var(--color-sidebar-caption-text)
+}

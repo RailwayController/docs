@@ -74,7 +74,7 @@ pygments_style = None
 # -- Options for HTML output -------------------------------------------------
 html_theme = "furo"
 html_static_path = ['_static']
-html_css_files = []
+html_css_files = ["css/rtd-version.css"]
 html_title = "Railway Controller"
 
 #html_js_files = [ ]
