@@ -26,3 +26,7 @@ SPDX-License-Identifier: MIT
 .rst-versions .rst-other-versions hr {
     border-top: solid 1px var(--color-sidebar-search-border);
 }
+
+#furo-readthedocs-versions .rst-current-version .fa-book {
+    color: var(--color-sidebar-caption-text)
+}
