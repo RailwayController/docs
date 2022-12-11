@@ -22,3 +22,7 @@ SPDX-License-Identifier: MIT
 #furo-readthedocs-versions:hover .rst-current-version .fa-book {
     color: var(--color-sidebar-caption-text)
 }
+
+.rst-versions .rst-other-versions hr {
+    border-top: solid 1px var(--color-sidebar-search-border);
+}
