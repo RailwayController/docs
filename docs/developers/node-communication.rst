@@ -57,7 +57,17 @@ correct interoperation of all nodes.
 """""""""""""
 
 A comma seperated list of all supported register addresses available on
-this node.
+this node. The comma seperated list SHOULD have the following format.
+
+.. code-block:: abnf
+
+    register-list   =       *(register-addr %x4C)
+                                ; 0 or more register addresses seperated
+                                ;   by a comma without any spaces
+
+.. note:: 
+    Any whitespace will be removed during processing of the list
+                                 
 
 ``serial``
 """"""""""
